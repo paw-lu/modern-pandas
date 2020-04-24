@@ -1,2 +1,4 @@
-*.ipynb
-.python-version
+/.python-version
+/modern-pandas/*.ipynb
+/modern-pandas/.ipynb_checkpoints
+/modern-pandas/data/
