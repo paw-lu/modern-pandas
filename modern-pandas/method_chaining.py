@@ -24,7 +24,7 @@
 # - `.rename`
 # - Window methods: `.rolling`
 # - `.resample`
-# - `.where` and `mask` and Indexers accept columns
+# - `.where` and `mask` and Indexers accept lambdas
 
 # %% [markdown] Collapsed="false"
 # ## Data
