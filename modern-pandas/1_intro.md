@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 ---
 jupyter:
   jupytext:
@@ -14,7 +15,7 @@ jupyter:
 ---
 
 <!-- #region Collapsed="false" -->
-# Modern Pandas
+# 1. Modern Pandas
 <!-- #endregion -->
 
 <!-- #region Collapsed="false" -->

@@ -14,7 +14,7 @@
 # ---
 
 # %% [markdown] Collapsed="false"
-# # Method chaining
+# # 2. Method chaining
 
 # %% [markdown] Collapsed="false"
 # Many chaining-friendly methods such as:

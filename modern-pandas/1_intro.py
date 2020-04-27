@@ -15,7 +15,7 @@
 # ---
 
 # %% [markdown] Collapsed="false"
-# # Modern Pandas
+# # 1. Modern Pandas
 
 # %% [markdown] Collapsed="false"
 # ## Get data

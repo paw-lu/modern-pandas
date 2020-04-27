@@ -14,7 +14,7 @@ jupyter:
 ---
 
 <!-- #region Collapsed="false" -->
-# Method chaining
+# 2. Method chaining
 <!-- #endregion -->
 
 <!-- #region Collapsed="false" -->
