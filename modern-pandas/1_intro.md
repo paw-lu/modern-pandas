@@ -126,6 +126,14 @@ f
 ## Multidimensional indexing
 <!-- #endregion -->
 
+<!-- #region Collapsed="false" -->
+<div class="alert alert-block alert-info">
+    <b>Techniques of note</b>
+    <br><br>
+    <li><b><code>pd.IndexSlice</code></b> for easy slicing of MultiIndexes</li>
+</div>
+<!-- #endregion -->
+
 ```python Collapsed="false"
 hdf = df.set_index(
     ["unique_carrier", "origin", "dest", "tail_num", "fl_date"]

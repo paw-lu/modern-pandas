@@ -161,6 +161,18 @@ def update_events(df, new_events):
 # %% [markdown] Collapsed="false"
 # ## Examples
 
+# %% [markdown] Collapsed="false"
+# <div class="alert alert-block alert-info">
+#     <b>Techniques of note</b>
+#     <br><br>
+#     <li><b><code>DataFrame.loc[lambda: ...]</code></b> for chaining and filtering</li>
+#     <li><b><code>pd.Grouper</code></b> for resampling while using <code>.groupby</code></li>
+#     <li><b><code>.unstack</code></b> for easy pivoting</li>
+#     <li><b><code>.rolling</code></b> for resampling via rows</li>
+#     <li><b><code>.pipe</code></b> for evaluating functions in chains</li>
+#     <li><b><code>.assign</code></b> for adding new columns in chains</li>
+# </div>
+
 # %% Collapsed="false"
 df.head()
 
