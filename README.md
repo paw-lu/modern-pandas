@@ -12,4 +12,4 @@ Python and accompanying Markdown file that may be synced to a Jupyter Notebook v
 _A lot_ of examples and code were collected from the excellent
 [**datas-frame**](https://tomaugspurger.github.io/archives.html) blog.
 
-- [**Method chaining**](modern-pandas/method-chaining.md) – Chain methods together
+- [**Method chaining**](modern-pandas/method_chaining.md) – Chain methods together
