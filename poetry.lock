@@ -415,6 +415,19 @@ pytz = ">=2017.2"
 test = ["pytest (>=4.0.2)", "pytest-xdist", "hypothesis (>=3.58)"]
 
 [[package]]
+category = "main"
+description = "Data readers extracted from the pandas codebase,should be compatible with recent pandas versions"
+name = "pandas-datareader"
+optional = false
+python-versions = "*"
+version = "0.8.1"
+
+[package.dependencies]
+lxml = "*"
+pandas = ">=0.21"
+requests = ">=2.3.0"
+
+[[package]]
 category = "dev"
 description = "A Python Parser"
 name = "parso"
@@ -789,7 +802,7 @@ python-versions = "*"
 version = "0.5.1"
 
 [metadata]
-content-hash = "d502af04df358afc6ea7b08e734f94f453c87988bf46abe09cdb395b0625105c"
+content-hash = "bdf6d575c765a3b4a5f017fe8c5e28ef70473cc36f2de96bd3f27bdc83b11186"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -1053,6 +1066,10 @@ pandas = [
     {file = "pandas-1.0.3-cp38-cp38-win32.whl", hash = "sha256:167a1315367cea6ec6a5e11e791d9604f8e03f95b57ad227409de35cf850c9c5"},
     {file = "pandas-1.0.3-cp38-cp38-win_amd64.whl", hash = "sha256:1a7c56f1df8d5ad8571fa251b864231f26b47b59cbe41aa5c0983d17dbb7a8e4"},
     {file = "pandas-1.0.3.tar.gz", hash = "sha256:32f42e322fb903d0e189a4c10b75ba70d90958cc4f66a1781ed027f1a1d14586"},
+]
+pandas-datareader = [
+    {file = "pandas-datareader-0.8.1.tar.gz", hash = "sha256:b8766b166c84b5e103e1ac57677e8c48084b66c4e477c1d0d437ec4b759c7a92"},
+    {file = "pandas_datareader-0.8.1-py2.py3-none-any.whl", hash = "sha256:7001a7cdeee1153e15881701bf03a3bd68931bec806e252eb6babe0ae042ec60"},
 ]
 parso = [
     {file = "parso-0.7.0-py2.py3-none-any.whl", hash = "sha256:158c140fc04112dc45bca311633ae5033c2c2a7b732fa33d0955bad8152a8dd0"},
