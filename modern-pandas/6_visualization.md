@@ -110,6 +110,7 @@ gdp.head()
     <li><b><code>pairplot</code></b> pairwise scatter and histogram</li>
     <li><b><code>PairGrid</code></b> to make a seaborn grid of pairs</li>
     <li><b><code>FacetGrid</code></b> to make a seaborn grid of different values</li>
+    <li><b><code>catplot</code></b> to make a seaborn out of different categories</li>
     <li><b><code>.map</code></b> For assigning different plots seaborn <code>Grid</code>s</li>
     <li><b><code>.map_upper/.map_diag/.map_lower</code></b> For assigning different plots to <code>PairGrid</code></li>
     
