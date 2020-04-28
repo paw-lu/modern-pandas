@@ -22,7 +22,7 @@ Many chaining-friendly methods such as:
 
 - `.assign`
 - `.pipe`
-- `.rename`
+- `.rename`/`.rename_axis`
 - Window methods: `.rolling`
 - `.resample`
 - `.where` and `mask` and Indexers accept lambdas
