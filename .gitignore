@@ -1,7 +1,6 @@
 /.mypy_cache
 /.python-version
 /.vscode
-/modern-pandas/*.ipynb
 /modern-pandas/.ipynb_checkpoints
 /modern-pandas/__pycache__
 /modern-pandas/data/

@@ -348,6 +348,6 @@ df = df.assign(
 df.head()
 ```
 
-```python
+```python Collapsed="false"
 
 ```

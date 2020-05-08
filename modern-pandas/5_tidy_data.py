@@ -302,4 +302,4 @@ df = df.assign(
 )
 df.head()
 
-# %%
+# %% Collapsed="false"
