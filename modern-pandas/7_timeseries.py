@@ -522,5 +522,28 @@ sns.despine()
 # after January 2013,
 # you predict on the forecast values.
 
-pred_dy = res_seasonal.get_prediction(start='2002-03-01', dynamic='2013-01-01')
+# +
+pred_dy = res_seasonal.get_prediction(start="2002-03-01", dynamic="2013-01-01")
 pred_dy_ci = pred_dy.conf_int()
+ax = y.plot(label="observed")
+pred_dy.predicted_mean.plot(ax=ax, label="Forecast")
+ax.fill_between(
+    pred_dy_ci.index,
+    pred_dy_ci.iloc[:, 0],
+    pred_dy_ci.iloc[:, 1],
+    color="k",
+    alpha=0.25,
+)
+ax.set_ylabel("Monthly Flights")
+
+# Highlight the forecast area
+ax.fill_betweenx(
+    ax.get_ylim(), pd.Timestamp("2013-01-01"), y.index[-1], alpha=0.1, zorder=-1
+)
+ax.annotate("Dynamic $\\longrightarrow$", (pd.Timestamp("2013-02-01"), 550))
+
+plt.legend()
+sns.despine()
+# -
+
+
