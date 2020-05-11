@@ -134,7 +134,7 @@ gs.tz_localize('US/Eastern').tz_convert('UTC').head()
 # <div class="alert alert-block alert-info">
 #     <b>Techniques of note</b>
 #     <br><br>
-#     <li><b><code>.shirt</code></b> To add lagged values.</li>
+#     <li><b><code>.shift</code></b> To add lagged values.</li>
 # </div>
 
 # ### Data

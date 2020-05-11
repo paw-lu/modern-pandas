@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 ---
 jupyter:
   jupytext:
@@ -167,7 +168,7 @@ Predict average monthly flights
 <div class="alert alert-block alert-info">
     <b>Techniques of note</b>
     <br><br>
-    <li><b><code>.shirt</code></b> To add lagged values.</li>
+    <li><b><code>.shift</code></b> To add lagged values.</li>
 </div>
 
 
@@ -633,7 +634,7 @@ ax.annotate("Dynamic $\\longrightarrow$", (pd.Timestamp("2013-02-01"), 550))
 plt.legend()
 sns.despine()
 ```
-
 ```python
 
 ```
+
