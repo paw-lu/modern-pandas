@@ -5,7 +5,7 @@ description = ""
 authors = ["Paulo Costa <pcosta@firstrepublic.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "3.7.6"
 requests = "^2.23.0"
 pandas = "^1.0.3"
 seaborn = "^0.10.0"
@@ -16,6 +16,8 @@ statsmodels = "^0.11.1"
 lxml = "^4.5.0"
 html5lib = "^1.0.1"
 pandas-datareader = "^0.8.1"
+dask = {extras = ["complete"], version = "^2.16.0"}
+pyarrow = "^0.17.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
