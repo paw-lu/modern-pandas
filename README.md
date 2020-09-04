@@ -19,4 +19,8 @@ _A lot_ of examples and code were collected from the excellent
 - [**Visualization**](modern-pandas/6_visualization.md)
   Leverage Seaborn and Pandas' built in plotting functionality
   to create charts
-  
+
+## References
+
+- **[Why is Nobody Talking about Pandas NamedAgg?](https://deanla.com/pandas_named_agg.html)**
+  Blog post on `NamedAgg`, and good uses of Pandas' `.agg`
