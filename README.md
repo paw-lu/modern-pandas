@@ -25,3 +25,4 @@ _A lot_ of examples and code were collected from the excellent
 - **[Why is Nobody Talking about Pandas NamedAgg?](https://deanla.com/pandas_named_agg.html)**
   Blog post on `NamedAgg`, and good uses of Pandas' `.agg`
 - **[Reddit thread on Pandas tricks](https://www.reddit.com/r/datascience/comments/ijfrip/what_are_your_best_pandas_tricks/)**
+- **[25 Pandas functions you didn't know existed](https://towardsdatascience.com/25-pandas-functions-you-didnt-know-existed-p-guarantee-0-8-1a05dcaad5d0)**
